@@ -9,6 +9,10 @@ A new Flutter project for making daily tasks.
 For model classes used freezed package: https://pub.dev/packages/freezed#motivation
 In order to generate freezed classes, please run the code (before build):
 
+flutter pub get
+
+And than:
+
 flutter pub run build_runner build --delete-conflicting-outputs
 
 ## Run App from terminal with:
